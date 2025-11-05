@@ -16,3 +16,4 @@ def add_shipping(order_amt: float) -> float:
     else:
         return order_amt + 12
 # Testing -- we'll come back to this
+global
