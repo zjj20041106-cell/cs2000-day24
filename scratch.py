@@ -1,10 +1,4 @@
-def add(num1: int, num2) -> int:
-  return num1 + num2
 
-result: str = add(3, 'hi')
-
-def func() -> int:
-  pass
 def add_shipping(order_amt: float) -> float:
     """ adds 4 for orders <= 10 (but non-zero), 8 for orders < 30, 12 for larger orders """
     if order_amt == 0:
@@ -16,4 +10,3 @@ def add_shipping(order_amt: float) -> float:
     else:
         return order_amt + 12
 # Testing -- we'll come back to this
-global
